@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>전주링컨기자부</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #eff6ff;
+      margin: 0;
+      padding: 20px;
+      color: #1e3a8a;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin: 0 0 8px 0;
+      color: #1e40af;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #1d4ed8;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e40af;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.875rem;
+      color: #60a5fa;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="1747972816522.png" alt="전주링컨학교 로고" />
+    <h1>전주링컨기자부</h1>
+    <p>정확하고 품격 있는 보도를 추구하는 우리는 전주링컨기자부입니다.</p>
+  </header>
+
+  <section class="section">
+    <h2>📰 최신 기사</h2>
+    <div class="card">
+      <h3>교내 문화제 성황리 개최</h3>
+      <p><small>2025-05-10</small></p>
+      <p>전주링컨학교에서 열린 문화제가 학생들과 학부모들의 뜨거운 호응을 받았습니다.</p>
+    </div>
+    <div class="card">
+      <h3>환경 보호 캠페인 시작</h3>
+      <p><small>2025-04-20</small></p>
+      <p>기자부 주관으로 진행된 환경 보호 캠페인이 학생들 사이에 좋은 반응을 얻었습니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>👥 팀원 소개</h2>
+    <div class="team-grid">
+      <div class="card"><h3>강헤인</h3><p>부장</p></div>
+      <div class="card"><h3>송지성</h3></div>
+      <div class="card"><h3>배한서</h3></div>
+      <div class="card"><h3>양준서</h3></div>
+      <div class="card"><h3>김소원</h3></div>
+      <div class="card"><h3>오윤정</h3></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📬 문의하기 / 의견 남기기</h2>
+    <form>
+      <input type="text" placeholder="이름" />
+      <input type="email" placeholder="이메일" />
+      <textarea rows="4" placeholder="문의 내용이나 의견을 작성해주세요."></textarea>
+      <button type="submit">보내기</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 전주링컨기자부. All rights reserved.
+  </footer>
+</body>
+</html>
